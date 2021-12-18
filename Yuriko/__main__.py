@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
+LDC_Robot IMG = "https://te.legra.ph/file/7d8aa4f7eae75ad37feb2.jpg"
 
 PM_START_TEXT = """
 *👋 Hello {} !*
@@ -90,7 +90,7 @@ PM_START_TEXT = """
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────────
-✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
+✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: The_Death_Soul!*
 """
 
 buttons = [
@@ -99,7 +99,7 @@ buttons = [
             text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_asst"),
+        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="The_Death_Soul"),
         InlineKeyboardButton(
             text="Iɴʟɪɴᴇ", switch_inline_query_current_chat=""
         ),
@@ -473,16 +473,16 @@ def yurikorobot_about_callback(update, context):
                 [[InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp")]]
             ),
         )
-    elif query.data == "yurikorobot_asst":
+    elif query.data == "LDC_Robot_asst":
         query.message.edit_text(
             text=f"*Hᴇʀᴇ Iꜱ Tʜᴇ Hᴇʟᴘ 「Aꜱꜱɪꜱᴛᴀɴᴛ」 Mᴏᴅᴜʟᴇ:*"
             
             f"\n*SETUP ASSISTANT*"
             f"\n\n✗ `1.) first, add me to your group.`"
             f"\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`"
-            f"\n\n✗ `3.) add` @YurikoPlugin `to your group:`"
+            f"\n\n✗ `3.) add` @The_Death_Soul `to your group:`"
             f"\n\n✗ `4.) turn on the video chat first before start to play music.`"
-            f"\n\n✗ *Lets Enjoy The Yuriko Music And Join Support Group @DeCodeSupport*"
+            f"\n\n✗ *Lets Enjoy The Yuriko Music And Join Support Group @Love_Dear_Comrades*"
             f"\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -507,21 +507,21 @@ def yurikorobot_about_callback(update, context):
                 [[InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp")]]
             ),
         )    
-    elif query.data == "yurikorobot_support":
+    elif query.data == "Love_Dear_Comrades":
         query.message.edit_text(
-            text="* YURIKO Support Chats*"
+            text="* LDC_Robot Support Chats*"
             
             "\n\n✗ `Join Support Group/Channel`",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/YurikoLogs"),
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/Deecodenews"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/Love_Dear_Comrades"),
+                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/Love_Dear_Comrades"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Decodesupport"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/deecodebots"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Love_Dear_Comrades"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/Love_Dear_Comrades"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
@@ -530,11 +530,11 @@ def yurikorobot_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "yurikorobot_credit":
+    elif query.data =="LDC_Robot":
         query.message.edit_text(
             text=f"<b> CREDIT FOR YURIKO DEV'S</b>\n"
             
-            f"\n`✗ Here Some Developers Helping in Making The Yuriko Bot`",
+            f"\n`✗ Here Some Developers Helping in Making The LDC_Robot Bot`",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -543,11 +543,11 @@ def yurikorobot_about_callback(update, context):
                     InlineKeyboardButton(text="Bʟᴀᴢᴇ", url="t.me/piroXpower"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sʜᴜʙʜᴀɴꜱʜᴜ", url="t.me/Shubhanshutya"),
-                    InlineKeyboardButton(text="Dᴇ Cᴏᴅᴇ", url="https://t.me/TeamDeeCode"),
+                    InlineKeyboardButton(text="It's Hussain", url="t.me/The_Death_Soul"),
+                    InlineKeyboardButton(text="Dᴇ Cᴏᴅᴇ", url="https://t.me/Love_Dear_Comrades"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
+                    InlineKeyboardButton(text="Back", callback_data="The_Death_Soul"),
                  
                  ]
                 ]
